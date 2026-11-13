@@ -3,6 +3,8 @@
     "player"
   ],
   "slots": [
-    "ring"
+    "ring",
+    "charm",
+    "active"
   ]
 }

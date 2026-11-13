@@ -20,8 +20,11 @@ public class HeatedTablet extends EntropicCurio {
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
 
         if (tooltipFlag.hasShiftDown()) {
-            tooltipComponents.add(Component.translatable("item.endless_entropy.heated_tablet.details").
+            tooltipComponents.add(Component.translatable("item.endless_entropy.heated_tablet.lore").
                     withStyle(ChatFormatting.GRAY).
+                    withStyle(ChatFormatting.ITALIC));
+            tooltipComponents.add(Component.translatable("item.endless_entropy.heated_tablet.details").
+                    withStyle(ChatFormatting.DARK_PURPLE).
                     withStyle(ChatFormatting.ITALIC));
 
 

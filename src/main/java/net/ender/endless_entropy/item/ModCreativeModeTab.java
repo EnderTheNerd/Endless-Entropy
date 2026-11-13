@@ -26,7 +26,7 @@ public class ModCreativeModeTab {
                     .title(Component.translatable("creativetab.endless_entropy_curio"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ItemRegistry.CURSED_RING.get());
-
+                        output.accept(ItemRegistry.LUKEWARM_TABLET.get());
                     })
 
                     .build());

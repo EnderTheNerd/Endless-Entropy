@@ -14,7 +14,7 @@ public class EEItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ItemRegistry.CURSED_RING.get());
-
+        basicItem(ItemRegistry.LUKEWARM_TABLET.get());
     }
 
 }

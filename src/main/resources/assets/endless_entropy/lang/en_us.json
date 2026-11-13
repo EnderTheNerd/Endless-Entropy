@@ -5,7 +5,9 @@
 
 
   "item.endless_entropy.normal_ring": "Normal Ring",
-  "item.endless_entropy.normal_ring.details": "A normal ring, nothing special about it.",
+  "item.endless_entropy.normal_ring.lore": "A normal ring, nothing special about it.",
+  "item.endless_entropy.normal_ring.details": "Does nothing.",
   "item.endless_entropy.heated_tablet": "Heated Tablet",
-  "item.endless_entropy.heated_tablet.details": "A lukewarm tablet. It pulses faintly, yet it holds promise of grand flames."
+  "item.endless_entropy.heated_tablet.lore": "A lukewarm tablet. It pulses faintly, yet it holds promise of grand flames.",
+  "item.endless_entropy.heated_tablet.details": "Entities you strike are briefly lit aflame."
 }

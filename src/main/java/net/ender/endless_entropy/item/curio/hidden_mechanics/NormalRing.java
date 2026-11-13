@@ -23,10 +23,12 @@ public class NormalRing extends EntropicCurio {
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
 
         if (tooltipFlag.hasShiftDown()) {
-            tooltipComponents.add(Component.translatable("item.endless_entropy.normal_ring.details").
+            tooltipComponents.add(Component.translatable("item.endless_entropy.normal_ring.lore").
                     withStyle(ChatFormatting.GRAY).
                     withStyle(ChatFormatting.ITALIC));
-
+            tooltipComponents.add(Component.translatable("item.endless_entropy.normal_ring.details").
+                    withStyle(ChatFormatting.DARK_PURPLE).
+                    withStyle(ChatFormatting.ITALIC));
 
         }
         else {
